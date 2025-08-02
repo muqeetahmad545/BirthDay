@@ -88,11 +88,9 @@
 
 .bd-pic {
   @include position;
-
   height: 83.33333333%;
   width: 83.33333333%;
   overflow: hidden;
-
   border-color: #fff;
   border-style: dotted;
   border-radius: 50%;
@@ -204,16 +202,16 @@
 }
 
 .switch {
-  background-image: url("../resources/img/bulb.svg");
+  background-image: url('../resources/img/bulb.svg');
 }
 
 .gift {
-  background-image: url("../resources/img/gift.svg");
+  background-image: url('../resources/img/gift.svg');
 }
 
 .door-in,
 .door-out {
-  background-image: url("../resources/img/door.svg");
+  background-image: url('../resources/img/door.svg');
 }
 
 //ROOMS
@@ -292,7 +290,7 @@
 .velas:after,
 .velas:before {
   background: rgba(255, 0, 0, 0.4);
-  content: "";
+  content: '';
   position: absolute;
   width: 100%;
   height: 5%;
