@@ -14,7 +14,7 @@
     "init-index-local": "node builder/init.js --local",
     "init-index-remote": "node builder/init.js --remote",
     "dev": "npm-run-all init-index-local watch:parcel",
-    "build": "npm-run-all init-index-remote build:parcel"
+    "build": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
